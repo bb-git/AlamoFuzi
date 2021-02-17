@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.watchos.deployment_target = "3.0"
     
     s.source_files = "Sources/*.swift"
-    s.dependency     "Alamofire", "~> 5.0.0-beta"
+    s.dependency     "Alamofire", "~> 5.0"
     s.dependency     "Fuzi", "~> 3.0"
 
     s.swift_version = "5.0"
